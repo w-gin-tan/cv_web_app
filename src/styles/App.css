@@ -5,3 +5,13 @@ body {
   height: 100vh;
   place-items: stretch;
 }
+
+.bg-app {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.5em;
+}
