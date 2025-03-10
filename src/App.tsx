@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css'
+import './styles/App.css'
 
 function App() {
   /*
@@ -16,7 +16,10 @@ function App() {
   */
 
   return (
-    <div className="background">
+    <div className="bg-app">
+      <nav className="header">
+        CV BUILDER
+      </nav>
     </div>
   )
 }
