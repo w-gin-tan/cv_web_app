@@ -1,13 +1,11 @@
 import { useState } from 'react';
 import '../../../styles/App.css';
-import '../../../styles/contact.css';
+import '../../../styles/form-group.css';
 
 export default function ContactForm() {
-    // do I need to declare type of useState variables?
     const [fullName, setFullName] = useState("");
     const [email, setEmail] = useState("");
     const [number, setNumber] = useState("");
-
 
     function updateFullName(name: string) {
         setFullName(name);

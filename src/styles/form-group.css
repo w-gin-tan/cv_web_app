@@ -1,0 +1,18 @@
+.form-box {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.form-box input {
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+
+.form-box h2 {
+    text-align: center;
+}
+
+
+
