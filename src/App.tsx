@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './styles/App.css'
+import ContactForm from './components/form-components/contact/ContactForm';
 
 function App() {
   /*
@@ -16,11 +17,23 @@ function App() {
   */
 
   return (
-    <div className="bg-app">
-      <nav className="header">
-        CV BUILDER
-      </nav>
-    </div>
+    <>
+      <div className="bg-app">
+        <nav className="header">
+          CV BUILDER
+        </nav>
+      </div>
+
+      <main className="main-container">
+        <aside className="form-container">
+          <ContactForm />
+        </aside>
+
+        <section className="resume-container">
+
+        </section>
+      </main>
+    </>
   )
 }
 

@@ -15,3 +15,25 @@ body {
   text-align: center;
   font-size: 2.5em;
 }
+
+.main-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.form-container {
+  
+}
+
+.resume-container {
+
+}
+
+.form-box {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  margin: 10px;
+}
+
+
