@@ -1,21 +1,9 @@
 import { useState } from 'react';
 import './styles/App.css'
 import ContactForm from './components/form-components/contact/ContactForm';
+import EducationForm from './components/form-components/education/EducationForm';
 
 function App() {
-  /*
-    This should render all the main components on the screen
-    - Header
-    - Main background
-      - Edit details
-        - Edit button
-        - Submit button
-        - General
-        - Education
-        - Work Experience
-      - Resume screen
-  */
-
   return (
     <>
       <div className="bg-app">
@@ -27,6 +15,7 @@ function App() {
       <main className="main-container">
         <aside className="form-container">
           <ContactForm />
+          <EducationForm />
         </aside>
 
         <section className="resume-container">
